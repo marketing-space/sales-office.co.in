@@ -21,7 +21,7 @@ export const wadhwaWiseCitySiteConfig = {
     phone: "+919619095795",
     whatsapp: "+919619095795",
     address:
-      "Navi Mumbai",
+      "Panvel",
   },
   gtmId: "GTM-WXHGV54V",
   navbar: {
