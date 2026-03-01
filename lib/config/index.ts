@@ -8,6 +8,7 @@ import { todayPanvelSiteConfig } from "./today-panvel";
 import { ashfordRegalSiteConfig } from "./ashford-regal";
 import { wadhwaWiseCitySiteConfig } from "./wadhwa-wise-city";
 import { neelkanthVerratonSiteConfig } from "./neelkanth-verraton";
+import { arihantAspireSiteConfig } from "./arihant-aspire";
 // import { siteConfig } from "./site";
 
 const configs = {
@@ -19,6 +20,7 @@ const configs = {
   [routes.AshfordRegal]: ashfordRegalSiteConfig,
   [routes.WadhwaWiseCity]: wadhwaWiseCitySiteConfig,
   [routes.NeelkanthVerraton]: neelkanthVerratonSiteConfig,
+  [routes.ArihantAspire]: arihantAspireSiteConfig,
 };
 
 export function getSiteConfig(site?: string) {

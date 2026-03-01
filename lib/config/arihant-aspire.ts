@@ -11,19 +11,19 @@ import {
 } from "lucide-react";
 import { routes } from "./routes";
 
-const route = routes.RahejaJadeCity;
+const route = routes.AshfordRegal;
 
-export const neelkanthVerratonSiteConfig = {
-  name: "Neelkanth Verraton",
+export const arihantAspireSiteConfig = {
+  name: "Arihant Aspire Codename ACE of Panvel",
   about:
-    "Founded in 1980, Neelkanth has grown into one of the most respected real estate developers in Mumbai. With a diverse portfolio spanning residential developments, shopping malls, and commercial spaces, the company continues to shape modern lifestyles through a steadfast commitment to design excellence, superior construction quality, and dependable, on-time delivery.",
+    "Arihant Superstructures Ltd. is a renowned developer in Mumbai, known for delivering quality homes across both budget and luxury segments. The company has a strong presence in key locations such as Vashi, Panvel, Kharghar, Khopoli, Taloja, Badlapur, and Kalyan–Shil Road.Committed to creating modern, stylish living spaces, the developer also incorporates environmentally sustainable practices across select projects. With over 8,000 families already served, the company has delivered not just homes but also strong value appreciation for its investors in recent years.",
   contact: {
     phone: "+919619095795",
     whatsapp: "+919619095795",
     address:
-      "Manpada, Thane",
+      "Nahur",
   },
-  gtmId: "GTM-WXHGV54V",
+  gtmId: "GTM-TWVKFK3G",
   navbar: {
     navItems: [
       {
@@ -65,12 +65,12 @@ export const neelkanthVerratonSiteConfig = {
     cta: {
       title: "Download Brochure",
       description:
-        "Download the brochure to learn more about Neelkanth Verraton",
+        "Download the brochure to learn more about Arihant Aspire Codename ACE of Panvel",
     },
   },
 
   branding: {
-    logo: "/neelkanth-verraton/images/logo.svg",
+    logo: "/arihant-aspire/images/logo.jpeg",
     favicon: "/icon.jpeg",
     ogImage: "/og-image.jpg",
   },
@@ -78,32 +78,33 @@ export const neelkanthVerratonSiteConfig = {
   hero: {
     banners: [
       {
-        src: "/neelkanth-verraton/images/banner-1.webp",
-        alt: "Neelkanth Verraton Interior",
+        src: "/arihant-aspire/images/banner-1.webp",
+        alt: "Arihant Aspire Codename ACE of Panvel Interior",
       },
       {
-        src: "/neelkanth-verraton/images/banner-2.webp",
-        alt: "Neelkanth Verraton Interior",
+        src: "/arihant-aspire/images/banner-2.webp",
+        alt: "Arihant Aspire Codename ACE of Panvel Interior",
       },
     ],
     welcome: {
       cta: {
         title: "Download Brochure",
         description:
-          "Download the brochure to learn more about Neelkanth Verraton.",
+          "Download the brochure to learn more about Arihant Aspire Codename ACE of Panvel.",
       },
-      title: "Welcome to Neelkanth Verraton",
-      description: `Neelkanth Verraton is truly awe-inspiring, evoking the elegance of the world’s most coveted addresses such as Santorini, Kensington Palace Gardens, and Palm Beach. Designed with a visionary approach, it introduces an exceptionally rare lifestyle to Mumbai.
+      title: "Welcome to Arihant Aspire Codename ACE of Panvel",
+      description: `Arihant Aspire Codename Ace of Panvel is a newly launched tower within this premium township, strategically located at Palaspe Phata, Panvel. It offers thoughtfully designed 1 BHK, 2 BHK, and 3 BHK luxury residences, complete with expansive decks and dedicated office spaces.
 
-Now unveiling the new Tower Verona at The Verraton—an address that not only meets but surpasses the expectations of refined living. Inspired by the concept of a 7-star lifestyle, it offers absolute luxury through world-class amenities, sophisticated design, and breathtaking landscaped surroundings.
+Each apartment features a smart, functional layout, refined finishes, and premium sanitary fittings, while opening up to stunning views of lush green surroundings. This gated community is enriched with an impressive range of modern amenities, including a mini theatre, clubhouse, gymnasium, maze garden, banquet hall, organic spa, pet zones, water fountains, cycling track, landscaped gardens, and a dedicated kids’ play area—creating a perfect blend of comfort, elegance, and lifestyle convenience.
 `,
     },
     offer: {
       title: "Booking Open: Limited Time Only",
-      location: "At Manpada, Thane By T. Bhimjyani Realty Pvt. Ltd.",
+      location: "At Panvel by Arihant Superstructure",
       points: [
-        { text: "Flexi Payment Plan" },
-        { text: "Spot Booking Offers" },
+        { text: "Launching New Tower Beneta" },
+        { text: "EOI Of ₹ 1.08 Lakhs" },
+        { text: "Save Big On Early Buy Discounts" },
       ],
       cta: {
         title: "Book A Free Site Visit",
@@ -112,20 +113,20 @@ Now unveiling the new Tower Verona at The Verraton—an address that not only me
       features: [
         {
           title: "Land Parcel",
-          value: "34 Acres",
+          value: "16 Acres",
         },
         {
           title: "Floors",
-          value: "G + 41 Storeys",
+          value: "42 Storey",
         },
         {
           title: "Possession",
-          value: " Dec 2026",
+          value: " March 2026",
         },
       ],
       price: {
-        title: "Luxurious 2, 2.5 & 3 BHK Starts from",
-        value: "1.66 Cr ",
+        title: "Luxurious 1, 2 & 3 BHK Starts from",
+        value: "54 Lacs ",
         suffix: "Onwards",
       },
     },
@@ -137,21 +138,39 @@ Now unveiling the new Tower Verona at The Verraton—an address that not only me
       "Choose from our range of luxurious 2 & 3 BHK residences, each designed to offer the perfect blend of comfort and sophistication",
     prices: [
       {
+        type: "1 BHK (O)",
+        carpetArea: "430 Sq.Ft. - 450 Sq.Ft.",
+        price: "54 Lacs - 57 Lacs",
+        suffix: "Onwards",
+      },
+      {
+        type: "1 BHK",
+        carpetArea: "403 Sq.Ft.",
+        price: "56 Lacs",
+        suffix: "Onwards",
+      },
+      {
         type: "2 BHK",
-        carpetArea: "870 Sq.ft.",
-        price: "1.66 Cr",
+        carpetArea: "583 Sq.Ft.",
+        price: "76 Lacs",
         suffix: "Onwards",
       },
       {
-        type: "2.5 BHK Prime Plus",
-        carpetArea: "994 Sq.ft.",
-        price: "2.01 Cr",
+        type: "2 BHK (O)",
+        carpetArea: "725 Sq.Ft.",
+        price: "86 Lacs",
         suffix: "Onwards",
       },
       {
-        type: "3 BHK",
-        carpetArea: "1175 - 1311 Sq.ft.",
-        price: "2.45 Cr",
+        type: "2 BHK (O)",
+        carpetArea: "680 Sq.Ft. - 750 Sq.Ft.",
+        price: "79 Lacs - 88 Lacs",
+        suffix: "Onwards",
+      },
+      {
+        type: "3 BHK (O)",
+        carpetArea: "950 Sq.Ft. - 1000 Sq.Ft.",
+        price: "1.11 Cr - 1.21 Cr",
         suffix: "Onwards",
       },
     ],
@@ -161,8 +180,8 @@ Now unveiling the new Tower Verona at The Verraton—an address that not only me
     },
     detailPricing: {
       image: {
-        src: "/neelkanth-verraton/images/costing.webp",
-        alt: "Neelkanth Verraton Costing",
+        src: "/arihant-aspire/images/costing.webp",
+        alt: "Arihant Aspire Codename ACE of Panvel Costing",
       },
       title: "Need Complete Costing Details?",
       description:
@@ -181,32 +200,27 @@ Now unveiling the new Tower Verona at The Verraton—an address that not only me
     masterPlan: {
       title: "Master Plan",
       image: {
-        src: "/neelkanth-verraton/images/masterplan.webp",
+        src: "/arihant-aspire/images/masterplan.webp",
         alt: "Master Plan",
       },
       cta: {
         title: "View Master Plan",
-        description: "Explore the layout of Neelkanth Verraton",
+        description: "Explore the layout of Arihant Aspire Codename ACE of Panvel",
       },
     },
     floorPlans: {
-      categories: ["All","2 BHK", "3 BHK"],
+      categories: ["All", "1 BHK"],
       title: "Floor Plans",
       plans: [
         {
-          type: "2 BHK-870 Sq.ft.",
-          image: "/neelkanth-verraton/images/plan-1.webp",
-          category: "2 BHK",
-        },
-        {
-          type: "3 BHK-1175-1311 Sq.ft.",
-          image: "/neelkanth-verraton/images/plan-2.webp",
-          category: "3 BHK",
+          type: "1 BHK-403",
+          image: "/arihant-aspire/images/plan.jpg",
+          category: "1 BHK",
         },
       ],
       cta: {
         title: "Enquire Now",
-        description: "Explore the layout of Neelkanth Verraton",
+        description: "Explore the layout of Arihant Aspire Codename ACE of Panvel",
       },
     },
   },
@@ -217,37 +231,67 @@ Now unveiling the new Tower Verona at The Verraton—an address that not only me
       "Discover a lifestyle enriched with premium amenities and facilities",
     cta: {
       title: "Download Amenities",
-      description: "Download the amenities of Neelkanth Verraton",
+      description: "Download the amenities of Arihant Aspire Codename ACE of Panvel",
     },
     amenities: [
       {
-        title: "Gymnasium",
-        image: "/neelkanth-verraton/images/amenities/gym.webp",
+        title: "Mini Theater",
+        image: "/arihant-aspire/images/amenities/minitheater11.webp",
+        description: "",
+      },
+      {
+        title: "Spa",
+        image: "/arihant-aspire/images/amenities/spa11.webp",
+        description: "",
+      },
+      {
+        title: "Multi Purpose Hall",
+        image: "/arihant-aspire/images/amenities/MultipurposeHall11.webp",
+        description: "",
+      },
+      {
+        title: "Reception",
+        image: "/arihant-aspire/images/amenities/reception11.webp",
         description: "",
       },
       {
         title: "Swimming Pool",
-        image: "/neelkanth-verraton/images/amenities/swimmingpool_1.webp",
+        image: "/arihant-aspire/images/amenities/swmming_01.webp",
         description: "",
       },
       {
-        title: "Library",
-        image: "/neelkanth-verraton/images/amenities/library_01.webp",
+        title: "Temple",
+        image: "/arihant-aspire/images/amenities/temple11.webp",
         description: "",
       },
       {
-        title: "Indoor Games",
-        image: "/neelkanth-verraton/images/amenities/Indoorgamesroom1.webp",
+        title: "Food Mart",
+        image: "/arihant-aspire/images/amenities/foodmart11.webp",
         description: "",
       },
       {
-        title: "Meditation",
-        image: "/neelkanth-verraton/images/amenities/yogazone_1.webp",
+        title: "Garden",
+        image: "/arihant-aspire/images/amenities/garden_01.webp",
         description: "",
       },
       {
-        title: "Multi Purpose Court",
-        image: "/neelkanth-verraton/images/amenities/multipurposecourt1.webp",
+        title: "Gym",
+        image: "/arihant-aspire/images/amenities/gymnasium_1.webp",
+        description: "",
+      },
+      {
+        title: "Kids Play Area",
+        image: "/arihant-aspire/images/amenities/kidsplayarea11.webp",
+        description: "",
+      },
+      {
+        title: "Lobby",
+        image: "/arihant-aspire/images/amenities/lobby11.webp",
+        description: "",
+      },
+      {
+        title: "Jogging Track",
+        image: "/arihant-aspire/images/amenities/Joggingtrack1.webp",
         description: "",
       },
 
@@ -264,27 +308,27 @@ Now unveiling the new Tower Verona at The Verraton—an address that not only me
       "Experience luxury living through our carefully curated spaces",
     cta: {
       title: "Download Gallery",
-      description: "Download the gallery of Neelkanth Verraton",
+      description: "Download the gallery of Arihant Aspire Codename ACE of Panvel",
     },
     images: [
       {
         title: "",
-        image: "/neelkanth-verraton/images/gallery/g1.webp",
+        image: "/arihant-aspire/images/gallery/g1.webp",
         description: "Elegantly designed living spaces with premium finishes",
       },
       {
         title: "",
-        image: "/neelkanth-verraton/images/gallery/g2.webp",
+        image: "/arihant-aspire/images/gallery/g2.webp",
         description: "Breathtaking views of landscaped gardens",
       },
       {
         title: "",
-        image: "/neelkanth-verraton/images/gallery/g3.webp",
+        image: "/arihant-aspire/images/gallery/g3.webp",
         description: "Resort-style pool with premium amenities",
       },
       {
         title: "",
-        image: "/neelkanth-verraton/images/gallery/g4.webp",
+        image: "/arihant-aspire/images/gallery/g4.webp",
         description: "Resort-style pool with premium amenities",
       },
     ],
@@ -294,31 +338,23 @@ Now unveiling the new Tower Verona at The Verraton—an address that not only me
     title: "Location",
     description: "Strategically located for your convenience",
     googleMapIframe:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2869.3177754560606!2d72.9662143752096!3d19.243222881996076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7bb919a7ece8f%3A0x6e867ab813d32a1b!2sThe%20Verraton%20Neelkanth%20Woods!5e1!3m2!1sen!2sin!4v1772345132221!5m2!1sen!2sin",
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2874.1872586583086!2d73.13135849999999!3d18.9627078!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7e7fbcdaa9059%3A0xb940f2db4f6bb64b!2sArihant%20Aspire!5e1!3m2!1sen!2sin!4v1772350908901!5m2!1sen!2sin",
     image: {
-      src: "/neelkanth-verraton/images/map.webp",
+      src: "/arihant-aspire/images/locationmap.webp",
       alt: "Location Map",
     },
     landmarks: [
       {
-        title: "Ghodbunder Road",
-        description: "02 Min",
+        title: "Palaspe Phata Bus Station",
+        description: "4 mins",
       },
       {
-        title: "Eastern Express Highway ",
-        description: "05 Min",
+        title: "St Johannes International School",
+        description: "15 mins",
       },
       {
-        title: "Thane Railway Station",
-        description: "05 Min",
-      },
-      {
-        title: "BKC via Santacruz- Chembur Link ",
-        description: "10 Min",
-      },
-      {
-        title: "Domestic Airport",
-        description: "29 Mi",
+        title: "Reach Panvel Railway Station",
+        description: "15 mins",
       },
     ],
     location: {
@@ -333,18 +369,18 @@ Now unveiling the new Tower Verona at The Verraton—an address that not only me
   virtualTour: {
     title: "Virtual Tour Request",
     description:
-      "Experience Neelkanth Verraton from the comfort of your home",
+      "Experience Arihant Aspire Codename ACE of Panvel from the comfort of your home",
     cta: {
       title: "Request Virtual Tour",
       description: "Schedule at your convenience",
     },
     image: {
-      src: "/neelkanth-verraton/images/banner-1.webp",
+      src: "/arihant-aspire/images/banner-1.webp",
       alt: "Virtual Tour",
     },
     videoTitle: "Virtual Tour",
     videoDescription:
-      "Experience Neelkanth Verraton from the comfort of your home",
+      "Experience Arihant Aspire Codename ACE of Panvel from the comfort of your home",
     features: [
       {
         title: "360° Views",
@@ -371,7 +407,7 @@ Now unveiling the new Tower Verona at The Verraton—an address that not only me
     title: "Get The Best Quote",
     bookFreeVisit: {
       image: {
-        src: "/neelkanth-verraton/images/ride.png",
+        src: "/arihant-aspire/images/ride.png",
         alt: "Book a Site Visit",
       },
       cta: {
@@ -408,12 +444,12 @@ Now unveiling the new Tower Verona at The Verraton—an address that not only me
     rera: {
       title: "RERA Information",
       description:
-        "According to the RERA Act 2016 of the Government of India, all projects of the Neelkanth Verraton, are listed on the Maharashtra Government's RERA website under registered projects.",
+        "According to the RERA Act 2016 of the Government of India, all projects of the Arihant Aspire Codename ACE of Panvel, are listed on the Maharashtra Government's RERA website under registered projects.",
       details: [
         {
-          title: "Neelkanth Verraton",
-          reraNumber: "MahaRERA -P51700021698",
-          qrCode: "/neelkanth-verraton/images/qr.webp",
+          title: "Arihant Aspire Codename ACE of Panvel",
+          reraNumber: "MahaRERA - P52000014107",
+          qrCode: "/arihant-aspire/images/qr.webp",
         },
       ],
     },
@@ -431,12 +467,17 @@ Now unveiling the new Tower Verona at The Verraton—an address that not only me
       {
         title: "RERA Numbers",
         description:
-          "RERA Project Registration No.:P51700021698",
+          "RERA Project Registration No.:P52000014107",
       },
       {
         title: "Site Address",
         description:
-          "Tikuji Ni Wadi Rd, Manpada, Resort, Thane, Maharashtra 400610",
+          "Site Address: Arihant Aspire Codename ACE of Panvel: Palaspe Phata, Panvel, Navi Mumbai, Maharashtra 410221",
+      },
+      {
+        title: "Contact Us",
+        description:
+          "Contact Us: Corporate Office: Corporate Office: Arihant Superstructure: Floor No. 26, Plot No 13/1 ⚊ TTC Industrial Area, Thane Belapur Road, Turbhe MIDC, Turbhe, Navi Mumbai,Maharashtra - 400 705.",
       },
     ],
     disclaimer:
@@ -445,12 +486,12 @@ Now unveiling the new Tower Verona at The Verraton—an address that not only me
 
   seo: {
     title:
-      "Neelkanth Verraton 1, 2, 3 BHK & Jodi in Navi Mumbai | Price, Floor Plans, Amenities | Request Brochure",
+      "Arihant Aspire Codename ACE of Panvel 1, 2, 3 BHK & Jodi in Navi Mumbai | Price, Floor Plans, Amenities | Request Brochure",
     description:
-      "Experience luxury living at Neelkanth Verraton,Navi Mumbai. 2 & 3 BHK apartments with world-class amenities.",
+      "Experience luxury living at Arihant Aspire Codename ACE of Panvel,Navi Mumbai. 2 & 3 BHK apartments with world-class amenities.",
     keywords: [
       "luxury apartments",
-      "Neelkanth Verraton",
+      "Arihant Aspire Codename ACE of Panvel",
       "1 bhk",
       "2 bhk",
       "3 bhk",
@@ -460,7 +501,7 @@ Now unveiling the new Tower Verona at The Verraton—an address that not only me
 
   termsAndConditions: {
     seo: {
-      title: "Neelkanth Verraton | Terms & Conditions",
+      title: "Arihant Aspire Codename ACE of Panvel | Terms & Conditions",
       description:
         "Please read these terms and conditions carefully before using our website.",
     },
@@ -488,7 +529,7 @@ Now unveiling the new Tower Verona at The Verraton—an address that not only me
 
   privacyPolicy: {
     seo: {
-      title: "Neelkanth Verraton | Privacy Policy",
+      title: "Arihant Aspire Codename ACE of Panvel | Privacy Policy",
       description: "This policy explains how we use your personal information.",
     },
     title: "Privacy Policy",
@@ -509,7 +550,7 @@ Now unveiling the new Tower Verona at The Verraton—an address that not only me
 
   cookiesPolicy: {
     seo: {
-      title: "Neelkanth Verraton | Cookies Policy",
+      title: "Arihant Aspire Codename ACE of Panvel | Cookies Policy",
       description:
         "This policy explains how we use cookies and similar technologies on our website.",
     },
@@ -532,19 +573,19 @@ Now unveiling the new Tower Verona at The Verraton—an address that not only me
 
   thankYou: {
     seo: {
-      title: "Neelkanth Verraton | Thank You",
-      description: "Thank you for your interest in Neelkanth Verraton",
+      title: "Arihant Aspire Codename ACE of Panvel | Thank You",
+      description: "Thank you for your interest in Arihant Aspire Codename ACE of Panvel",
     },
   },
 
   formSubmission: {
     crm: {
-      formId: "__vtigerWebForm_176",
-      publicId: "81821a85db616f148024325ee1da54c8",
+      formId: "__vtigerWebForm_178",
+      publicId: "5dd32b5d35c28f4504f3492b31c513d0",
       baseUrl: "https://company133638.od2.vtiger.com",
       __vtrftk: "sid:1b3cdc7b40504e947d6886a08517ac877e7e3224,1678943220",
       __vtCurrency: "1",
-      name: "Neelkanth Verraton",
+      name: "Arihant Panvel",
       cfLeadsProjectSite: "Dosti Eden",
       leadSource: "Web",
       emailOptin: "1",
@@ -552,10 +593,10 @@ Now unveiling the new Tower Verona at The Verraton—an address that not only me
     email: {
       apiEndpoint: "/api/send-email",
       template: {
-        subject: "New Enquiry from Neelkanth Verraton",
+        subject: "New Enquiry from Arihant Aspire Codename ACE of Panvel",
       },
     },
   },
 };
 
-export type NeelkanthVerratonSiteConfig = typeof neelkanthVerratonSiteConfig;
+export type ArihantAspireSiteConfig = typeof arihantAspireSiteConfig;
