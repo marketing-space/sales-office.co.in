@@ -5,5 +5,6 @@ export const routes = {
   TodayCloudCity: "Today/Cloud-City",
   TodayPanvel: "Today/Panvel",
   AshfordRegal: "Ashford/Regal",
-  WadhwaWiseCity: "Wadhwa/Wise-City"
+  WadhwaWiseCity: "Wadhwa/Wise-City",
+  NeelkanthVerraton: "Neelkanth/Verraton",
 };

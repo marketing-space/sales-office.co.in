@@ -11,12 +11,12 @@ import {
 } from "lucide-react";
 import { routes } from "./routes";
 
-const route = routes.WadhwaWiseCity;
+const route = routes.RahejaJadeCity;
 
-export const wadhwaWiseCitySiteConfig = {
-  name: "Wadhwa Wise City Launching New Tower",
+export const neelkanthVerratonSiteConfig = {
+  name: "Neelkanth Verraton",
   about:
-    "With a legacy spanning over five decades, The Wadhwa Group stands among India’s most respected real estate developers. Its projects reflect enduring craftsmanship, forward-thinking vision, and distinctive architectural innovation. Known for designing spacious, well-ventilated residences filled with natural light, the group prioritizes comfort alongside quality. With a strong presence across key Mumbai neighborhoods such as Ghatkopar, Goregaon, Mulund, Powai, and Borivali, The Wadhwa Group has become synonymous with reliability and excellence in Indian real estate.",
+    "Founded in 1980, Neelkanth has grown into one of the most respected real estate developers in Mumbai. With a diverse portfolio spanning residential developments, shopping malls, and commercial spaces, the company continues to shape modern lifestyles through a steadfast commitment to design excellence, superior construction quality, and dependable, on-time delivery.",
   contact: {
     phone: "+919619095795",
     whatsapp: "+919619095795",
@@ -65,45 +65,45 @@ export const wadhwaWiseCitySiteConfig = {
     cta: {
       title: "Download Brochure",
       description:
-        "Download the brochure to learn more about Wadhwa Wise City",
+        "Download the brochure to learn more about Neelkanth Verraton",
     },
   },
 
   branding: {
-    logo: "/wadhwa-wise-city/images/logo.jpeg",
-    favicon: "/icon.jpeg",
+    logo: "/neelkanth-verraton/images/logo.svg",
+    favicon: "/icon.jpg",
     ogImage: "/og-image.jpg",
   },
 
   hero: {
     banners: [
       {
-        src: "/wadhwa-wise-city/images/banner-1.webp",
-        alt: "Wadhwa Wise City Interior",
+        src: "/neelkanth-verraton/images/banner-1.webp",
+        alt: "Neelkanth Verraton Interior",
       },
       {
-        src: "/wadhwa-wise-city/images/banner-2.webp",
-        alt: "Wadhwa Wise City Interior",
+        src: "/neelkanth-verraton/images/banner-2.webp",
+        alt: "Neelkanth Verraton Interior",
       },
     ],
     welcome: {
       cta: {
         title: "Download Brochure",
         description:
-          "Download the brochure to learn more about Wadhwa Wise City.",
+          "Download the brochure to learn more about Neelkanth Verraton.",
       },
-      title: "Welcome to Wadhwa Wise City",
-      description: `Wadhwa Wise City is a thoughtfully planned township in Panvel, introducing a new residential tower featuring spacious 1, 2, 2.5, 3, and 4 BHK apartments with expansive balconies. Nestled against the scenic backdrop of the Prabalmachi Hill Range, the development is surrounded by lush greenery that enriches everyday living.
+      title: "Welcome to Neelkanth Verraton",
+      description: `Neelkanth Verraton is truly awe-inspiring, evoking the elegance of the world’s most coveted addresses such as Santorini, Kensington Palace Gardens, and Palm Beach. Designed with a visionary approach, it introduces an exceptionally rare lifestyle to Mumbai.
 
-Designed with generous layouts and intelligent planning, each home ensures excellent ventilation and abundant natural light. Premium specifications include imported marble flooring, high-quality sanitary fittings, and refined finishes throughout. Residents can also enjoy a wide range of lifestyle amenities such as a reflexology park, gymnasium, herb garden, swimming pool, children’s play area, clubhouse, and rock garden — creating a well-rounded living experience that blends comfort with nature.`,
+Now unveiling the new Tower Verona at The Verraton—an address that not only meets but surpasses the expectations of refined living. Inspired by the concept of a 7-star lifestyle, it offers absolute luxury through world-class amenities, sophisticated design, and breathtaking landscaped surroundings.
+`,
     },
     offer: {
       title: "Booking Open: Limited Time Only",
-      location: "At Panvel by Wadhwa Group",
+      location: "At Manpada, Thane By T. Bhimjyani Realty Pvt. Ltd.",
       points: [
-        { text: "Discount From 3 Lakhs to 15 Lakhs" },
-        { text: "Avail Flexible Payment Plan" },
-        { text: "Large 3 BHK Hill Facing Apartments" },
+        { text: "Flexi Payment Plan" },
+        { text: "Spot Booking Offers" },
       ],
       cta: {
         title: "Book A Free Site Visit",
@@ -112,20 +112,20 @@ Designed with generous layouts and intelligent planning, each home ensures excel
       features: [
         {
           title: "Land Parcel",
-          value: "200 Acres",
+          value: "34 Acres",
         },
         {
           title: "Floors",
-          value: "25 Floors",
+          value: "G + 41 Storeys",
         },
-        // {
-        //   title: "Possession",
-        //   value: "RTMI / Under construction",
-        // },
+        {
+          title: "Possession",
+          value: " Dec 2026",
+        },
       ],
       price: {
-        title: "Luxurious 3 & 4 BHK Flats, Bungalow & Plots Starts from",
-        value: "1.69 Cr",
+        title: "Luxurious 2, 2.5 & 3 BHK Starts from",
+        value: "1.66 Cr ",
         suffix: "Onwards",
       },
     },
@@ -137,45 +137,21 @@ Designed with generous layouts and intelligent planning, each home ensures excel
       "Choose from our range of luxurious 2 & 3 BHK residences, each designed to offer the perfect blend of comfort and sophistication",
     prices: [
       {
-        type: "1 BHK",
-        carpetArea: "390 Sq.ft. – 435 Sq.ft.",
-        price: "64 Lacs",
-        suffix: "Onwards",
-      },
-      {
         type: "2 BHK",
-        carpetArea: "639 Sq.ft.",
-        price: "1.06 Cr",
+        carpetArea: "870 Sq.ft.",
+        price: "1.66 Cr",
         suffix: "Onwards",
       },
       {
-        type: "2.5 BHK",
-        carpetArea: "907 Sq.ft. – 1100 Sq.ft.",
-        price: "1.59 Cr",
+        type: "2.5 BHK Prime Plus",
+        carpetArea: "994 Sq.ft.",
+        price: "2.01 Cr",
         suffix: "Onwards",
       },
       {
         type: "3 BHK",
-        carpetArea: "1100 Sq.ft.",
-        price: "1.69 Cr",
-        suffix: "Onwards",
-      },
-      {
-        type: "Plots",
-        carpetArea: "2131 Sq.ft. - 4000 Sq.ft.",
-        price: "2.15 Cr",
-        suffix: "Onwards",
-      },
-      {
-        type: "3 BHK Bungalow",
-        carpetArea: "1827 + 480 Sq.ft.",
-        price: "3 Cr",
-        suffix: "Onwards",
-      },
-      {
-        type: "4 BHK Bungalow",
-        carpetArea: "2000 + 780  Sq.ft.",
-        price: "3.69 Cr",
+        carpetArea: "1175 - 1311 Sq.ft.",
+        price: "2.45 Cr",
         suffix: "Onwards",
       },
     ],
@@ -185,8 +161,8 @@ Designed with generous layouts and intelligent planning, each home ensures excel
     },
     detailPricing: {
       image: {
-        src: "/wadhwa-wise-city/images/costing.webp",
-        alt: "Wadhwa Wise City Costing",
+        src: "/neelkanth-verraton/images/costing.webp",
+        alt: "Neelkanth Verraton Costing",
       },
       title: "Need Complete Costing Details?",
       description:
@@ -205,32 +181,32 @@ Designed with generous layouts and intelligent planning, each home ensures excel
     masterPlan: {
       title: "Master Plan",
       image: {
-        src: "/wadhwa-wise-city/images/masterplan.webp",
+        src: "/neelkanth-verraton/images/masterplan.webp",
         alt: "Master Plan",
       },
       cta: {
         title: "View Master Plan",
-        description: "Explore the layout of Wadhwa Wise City",
+        description: "Explore the layout of Neelkanth Verraton",
       },
     },
     floorPlans: {
-      categories: ["All", "2 BHK"],
+      categories: ["All","2 BHK", "3 BHK"],
       title: "Floor Plans",
       plans: [
         {
-          type: "2 BHK-639 Sq.ft.",
-          image: "/wadhwa-wise-city/images/plan-1.jpg",
+          type: "2 BHK-870 Sq.ft.",
+          image: "/neelkanth-verraton/images/plan-1.webp",
           category: "2 BHK",
         },
         {
-          type: "2 BHK-907 Sq.ft.",
-          image: "/wadhwa-wise-city/images/plan-2.jpg",
-          category: "2 BHK",
+          type: "3 BHK-1175-1311 Sq.ft.",
+          image: "/neelkanth-verraton/images/plan-2.webp",
+          category: "3 BHK",
         },
       ],
       cta: {
         title: "Enquire Now",
-        description: "Explore the layout of Wadhwa Wise City",
+        description: "Explore the layout of Neelkanth Verraton",
       },
     },
   },
@@ -241,67 +217,37 @@ Designed with generous layouts and intelligent planning, each home ensures excel
       "Discover a lifestyle enriched with premium amenities and facilities",
     cta: {
       title: "Download Amenities",
-      description: "Download the amenities of Wadhwa Wise City",
+      description: "Download the amenities of Neelkanth Verraton",
     },
     amenities: [
       {
-        title: "Amphitheatre",
-        image: "/wadhwa-wise-city/images/amenities/amphitheatre.webp",
+        title: "Gymnasium",
+        image: "/neelkanth-verraton/images/amenities/gym.webp",
         description: "",
       },
       {
-        title: "Senior Citizen’s Court",
-        image: "/wadhwa-wise-city/images/amenities/seniorcitizencourt.webp",
+        title: "Swimming Pool",
+        image: "/neelkanth-verraton/images/amenities/swimmingpool_1.webp",
         description: "",
       },
       {
-        title: "Rock Garden",
-        image: "/wadhwa-wise-city/images/amenities/rockgarden.webp",
+        title: "Library",
+        image: "/neelkanth-verraton/images/amenities/library_01.webp",
         description: "",
       },
       {
-        title: "Kid's Play Area",
-        image: "/wadhwa-wise-city/images/amenities/kidsplayarea.webp",
+        title: "Indoor Games",
+        image: "/neelkanth-verraton/images/amenities/Indoorgamesroom1.webp",
         description: "",
       },
       {
-        title: "Jogging Track",
-        image: "/wadhwa-wise-city/images/amenities/joggingtrack.webp",
+        title: "Meditation",
+        image: "/neelkanth-verraton/images/amenities/yogazone_1.webp",
         description: "",
       },
       {
-        title: "Pet’s Zone",
-        image: "/wadhwa-wise-city/images/amenities/petszone.webp",
-        description: "",
-      },
-      {
-        title: "Barbeque Area",
-        image: "/wadhwa-wise-city/images/amenities/bbq.jpg",
-        description: "",
-      },
-      {
-        title: "Herbal Garden",
-        image: "/wadhwa-wise-city/images/amenities/herbalgarden.webp",
-        description: "",
-      },
-      {
-        title: "Outdoor Gym",
-        image: "/wadhwa-wise-city/images/amenities/opengym.webp",
-        description: "",
-      },
-      {
-        title: "Fountain",
-        image: "/wadhwa-wise-city/images/amenities/fountain.webp",
-        description: "",
-      },
-      {
-        title: "Gazebos",
-        image: "/wadhwa-wise-city/images/amenities/gazebos.webp",
-        description: "",
-      },
-      {
-        title: "Banquet Hall",
-        image: "/wadhwa-wise-city/images/amenities/BanquetHall.webp",
+        title: "Multi Purpose Court",
+        image: "/neelkanth-verraton/images/amenities/multipurposecourt1.webp",
         description: "",
       },
 
@@ -318,27 +264,27 @@ Designed with generous layouts and intelligent planning, each home ensures excel
       "Experience luxury living through our carefully curated spaces",
     cta: {
       title: "Download Gallery",
-      description: "Download the gallery of Wadhwa Wise City",
+      description: "Download the gallery of Neelkanth Verraton",
     },
     images: [
       {
         title: "",
-        image: "/wadhwa-wise-city/images/gallery/g1.webp",
+        image: "/neelkanth-verraton/images/gallery/g1.webp",
         description: "Elegantly designed living spaces with premium finishes",
       },
       {
         title: "",
-        image: "/wadhwa-wise-city/images/gallery/g2.webp",
+        image: "/neelkanth-verraton/images/gallery/g2.webp",
         description: "Breathtaking views of landscaped gardens",
       },
       {
         title: "",
-        image: "/wadhwa-wise-city/images/gallery/g3.webp",
+        image: "/neelkanth-verraton/images/gallery/g3.webp",
         description: "Resort-style pool with premium amenities",
       },
       {
         title: "",
-        image: "/wadhwa-wise-city/images/gallery/g4.webp",
+        image: "/neelkanth-verraton/images/gallery/g4.webp",
         description: "Resort-style pool with premium amenities",
       },
     ],
@@ -348,23 +294,31 @@ Designed with generous layouts and intelligent planning, each home ensures excel
     title: "Location",
     description: "Strategically located for your convenience",
     googleMapIframe:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d367929.4861296818!2d72.60737427343749!3d18.947510100000017!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7e5c1de398747%3A0x611268bec040c514!2sWadhwa%20Wise%20City!5e1!3m2!1sen!2sin!4v1772281644745!5m2!1sen!2sin",
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2869.3177754560606!2d72.9662143752096!3d19.243222881996076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7bb919a7ece8f%3A0x6e867ab813d32a1b!2sThe%20Verraton%20Neelkanth%20Woods!5e1!3m2!1sen!2sin!4v1772345132221!5m2!1sen!2sin",
     image: {
-      src: "/wadhwa-wise-city/images/locationmap.webp",
+      src: "/neelkanth-verraton/images/map.webp",
       alt: "Location Map",
     },
     landmarks: [
       {
-        title: "Panvel Railway Station",
-        description: "15 mins",
+        title: "Ghodbunder Road",
+        description: "02 Min",
       },
       {
-        title: "Upcoming Navi Mumbai Airport",
-        description: "20 mins",
+        title: "Eastern Express Highway ",
+        description: "05 Min",
       },
       {
-        title: "Palaspe Phata",
-        description: "15 mins",
+        title: "Thane Railway Station",
+        description: "05 Min",
+      },
+      {
+        title: "BKC via Santacruz- Chembur Link ",
+        description: "10 Min",
+      },
+      {
+        title: "Domestic Airport",
+        description: "29 Mi",
       },
     ],
     location: {
@@ -379,18 +333,18 @@ Designed with generous layouts and intelligent planning, each home ensures excel
   virtualTour: {
     title: "Virtual Tour Request",
     description:
-      "Experience Wadhwa Wise City from the comfort of your home",
+      "Experience Neelkanth Verraton from the comfort of your home",
     cta: {
       title: "Request Virtual Tour",
       description: "Schedule at your convenience",
     },
     image: {
-      src: "/wadhwa-wise-city/images/banner-1.webp",
+      src: "/neelkanth-verraton/images/banner-1.webp",
       alt: "Virtual Tour",
     },
     videoTitle: "Virtual Tour",
     videoDescription:
-      "Experience Wadhwa Wise City from the comfort of your home",
+      "Experience Neelkanth Verraton from the comfort of your home",
     features: [
       {
         title: "360° Views",
@@ -417,7 +371,7 @@ Designed with generous layouts and intelligent planning, each home ensures excel
     title: "Get The Best Quote",
     bookFreeVisit: {
       image: {
-        src: "/wadhwa-wise-city/images/ride.png",
+        src: "/neelkanth-verraton/images/ride.png",
         alt: "Book a Site Visit",
       },
       cta: {
@@ -454,12 +408,12 @@ Designed with generous layouts and intelligent planning, each home ensures excel
     rera: {
       title: "RERA Information",
       description:
-        "According to the RERA Act 2016 of the Government of India, all projects of the Wadhwa Wise City, are listed on the Maharashtra Government's RERA website under registered projects.",
+        "According to the RERA Act 2016 of the Government of India, all projects of the Neelkanth Verraton, are listed on the Maharashtra Government's RERA website under registered projects.",
       details: [
         {
-          title: "Wadhwa Wise City",
-          reraNumber: "MahaRERA - P52000052619",
-          qrCode: "/wadhwa-wise-city/images/qr.webp",
+          title: "Neelkanth Verraton",
+          reraNumber: "MahaRERA -P51700021698",
+          qrCode: "/neelkanth-verraton/images/qr.webp",
         },
       ],
     },
@@ -477,17 +431,12 @@ Designed with generous layouts and intelligent planning, each home ensures excel
       {
         title: "RERA Numbers",
         description:
-          "RERA Project Registration No.:P52000052619",
+          "RERA Project Registration No.:P51700021698",
       },
       {
         title: "Site Address",
         description:
-          "Site Address:Wadhwa The Haven: Old Mumbai - Pune Hwy, Bhangarwadi, Mumbai, Maharashtra 410206.",
-      },
-      {
-        title: "Corporate Office",
-        description:
-          "Corporate Office: Wadhwa Group: 16th Floor, Vishwaroop IT Park, Pranavanandji Marg, Sector 30, Vashi, Navi Mumbai, Maharashtra 400703.",
+          "Tikuji Ni Wadi Rd, Manpada, Resort, Thane, Maharashtra 400610",
       },
     ],
     disclaimer:
@@ -496,12 +445,12 @@ Designed with generous layouts and intelligent planning, each home ensures excel
 
   seo: {
     title:
-      "Wadhwa Wise City 1, 2, 3 BHK & Jodi in Navi Mumbai | Price, Floor Plans, Amenities | Request Brochure",
+      "Neelkanth Verraton 1, 2, 3 BHK & Jodi in Navi Mumbai | Price, Floor Plans, Amenities | Request Brochure",
     description:
-      "Experience luxury living at Wadhwa Wise City,Navi Mumbai. 2 & 3 BHK apartments with world-class amenities.",
+      "Experience luxury living at Neelkanth Verraton,Navi Mumbai. 2 & 3 BHK apartments with world-class amenities.",
     keywords: [
       "luxury apartments",
-      "Wadhwa Wise City",
+      "Neelkanth Verraton",
       "1 bhk",
       "2 bhk",
       "3 bhk",
@@ -511,7 +460,7 @@ Designed with generous layouts and intelligent planning, each home ensures excel
 
   termsAndConditions: {
     seo: {
-      title: "Wadhwa Wise City | Terms & Conditions",
+      title: "Neelkanth Verraton | Terms & Conditions",
       description:
         "Please read these terms and conditions carefully before using our website.",
     },
@@ -539,7 +488,7 @@ Designed with generous layouts and intelligent planning, each home ensures excel
 
   privacyPolicy: {
     seo: {
-      title: "Wadhwa Wise City | Privacy Policy",
+      title: "Neelkanth Verraton | Privacy Policy",
       description: "This policy explains how we use your personal information.",
     },
     title: "Privacy Policy",
@@ -560,7 +509,7 @@ Designed with generous layouts and intelligent planning, each home ensures excel
 
   cookiesPolicy: {
     seo: {
-      title: "Wadhwa Wise City | Cookies Policy",
+      title: "Neelkanth Verraton | Cookies Policy",
       description:
         "This policy explains how we use cookies and similar technologies on our website.",
     },
@@ -583,19 +532,19 @@ Designed with generous layouts and intelligent planning, each home ensures excel
 
   thankYou: {
     seo: {
-      title: "Wadhwa Wise City | Thank You",
-      description: "Thank you for your interest in Wadhwa Wise City",
+      title: "Neelkanth Verraton | Thank You",
+      description: "Thank you for your interest in Neelkanth Verraton",
     },
   },
 
   formSubmission: {
     crm: {
-      formId: "__vtigerWebForm_177",
-      publicId: "aca4247570c85c8b91c29e13b70a0cc9",
+      formId: "__vtigerWebForm_176",
+      publicId: "81821a85db616f148024325ee1da54c8",
       baseUrl: "https://company133638.od2.vtiger.com",
       __vtrftk: "sid:1b3cdc7b40504e947d6886a08517ac877e7e3224,1678943220",
       __vtCurrency: "1",
-      name: "Wadhwa Panvel",
+      name: "Neelkanth Verraton",
       cfLeadsProjectSite: "Dosti Eden",
       leadSource: "Web",
       emailOptin: "1",
@@ -603,10 +552,10 @@ Designed with generous layouts and intelligent planning, each home ensures excel
     email: {
       apiEndpoint: "/api/send-email",
       template: {
-        subject: "New Enquiry from Wadhwa Wise City",
+        subject: "New Enquiry from Neelkanth Verraton",
       },
     },
   },
 };
 
-export type WadhwaWiseCitySiteConfig = typeof wadhwaWiseCitySiteConfig;
+export type NeelkanthVerratonSiteConfig = typeof neelkanthVerratonSiteConfig;
