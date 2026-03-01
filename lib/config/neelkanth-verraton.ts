@@ -70,7 +70,7 @@ export const neelkanthVerratonSiteConfig = {
   },
 
   branding: {
-    logo: "/neelkanth-verraton/images/logo.svg",
+    logo: "/neelkanth-verraton/images/logo.jpeg",
     favicon: "/icon.jpeg",
     ogImage: "/og-image.jpg",
   },

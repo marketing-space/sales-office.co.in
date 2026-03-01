@@ -21,7 +21,7 @@ export const arihantAspireSiteConfig = {
     phone: "+919619095795",
     whatsapp: "+919619095795",
     address:
-      "Nahur",
+      "Panvel",
   },
   gtmId: "GTM-TWVKFK3G",
   navbar: {
