@@ -23,7 +23,7 @@ export const arihantAspireSiteConfig = {
     address:
       "Panvel",
   },
-  gtmId: "GTM-TWVKFK3G",
+  gtmId: "GTM-NSTZVHJM",
   navbar: {
     navItems: [
       {

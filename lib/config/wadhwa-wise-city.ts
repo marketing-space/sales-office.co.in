@@ -23,7 +23,7 @@ export const wadhwaWiseCitySiteConfig = {
     address:
       "Panvel",
   },
-  gtmId: "GTM-WXHGV54V",
+  gtmId: "GTM-TBVQ4VBR",
   navbar: {
     navItems: [
       {
