@@ -73,7 +73,7 @@ export default function EnquireSection({
         email: values.email || "",
         phone: values.phone,
       });
-      router.push(`/thank-you`);
+      router.push(`${site}/thank-you`);
       onSubmit?.();
     } catch (error) {
       console.error("Form submission error:", error);
