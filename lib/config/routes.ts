@@ -7,5 +7,6 @@ export const routes = {
   AshfordRegal: "Ashford/Regal",
   WadhwaWiseCity: "Wadhwa/Wise-City",
   NeelkanthVerraton: "Neelkanth/Verraton",
-  ArihantAspire: "Arihant/Aspire"
+  ArihantAspire: "Arihant/Aspire",
+  RaymondSion: "Raymond/Sion"
 };
