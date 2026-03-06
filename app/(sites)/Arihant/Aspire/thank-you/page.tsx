@@ -70,7 +70,7 @@ export default function ThankYouPage() {
   // Add redirect effect
   useEffect(() => {
     const redirectTimer = setTimeout(() => {
-      router.push(`/`);
+      router.push(`/${site}/#home`);
     }, countdown * 1000);
 
     // Cleanup timer
