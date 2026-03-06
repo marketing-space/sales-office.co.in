@@ -11,7 +11,7 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { motion } from "framer-motion";
 import { Loader2, PhoneCallIcon } from "lucide-react";
 import Image from "next/image";
-import { useRouter } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import { useState } from "react";
 import { useForm } from "react-hook-form";
 import * as z from "zod";
@@ -63,6 +63,7 @@ export default function EnquireSection({
   const router = useRouter();
   const { onOpen } = useModal();
   const { site } = useSite();
+  const pathname = usePathname()
   const { enquire, formSubmission } = getSiteConfig(site);
 
   async function handleSubmit(values: z.infer<typeof formSchema>) {
@@ -73,7 +74,7 @@ export default function EnquireSection({
         email: values.email || "",
         phone: values.phone,
       });
-      router.push(`${site}/thank-you`);
+      router.push(`${pathname}/thank-you`);
       onSubmit?.();
     } catch (error) {
       console.error("Form submission error:", error);
