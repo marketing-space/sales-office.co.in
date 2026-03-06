@@ -120,10 +120,6 @@ Surrounded by excellent infrastructure, vibrant neighborhoods, and easy access t
           title: "Towers",
           value: "5",
         },
-        {
-          title: "Possession",
-          value: "March 2026",
-        },
       ],
       price: {
         title: "Luxurious 2, 3 & 4 BHK Starts from",
