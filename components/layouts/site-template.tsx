@@ -14,7 +14,8 @@ export default function SiteTemplate({
   children: React.ReactNode;
 }) {
   const pathname = usePathname();
-  const site = pathname.split("/")[1] + "/" + pathname.split("/")[2];
+  const site = pathname.split("/").filter(Boolean).slice(0, 2).join("/");
+
   console.log(site);
   return (
     <SiteProvider site={site}>

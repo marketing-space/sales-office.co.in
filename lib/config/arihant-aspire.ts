@@ -11,7 +11,7 @@ import {
 } from "lucide-react";
 import { routes } from "./routes";
 
-const route = routes.AshfordRegal;
+const route = routes.ArihantAspire;
 
 export const arihantAspireSiteConfig = {
   name: "Arihant Aspire Codename ACE of Panvel",
@@ -121,7 +121,7 @@ Each apartment features a smart, functional layout, refined finishes, and premiu
         },
         {
           title: "Possession",
-          value: " March 2026",
+          value: "Dec 2026",
         },
       ],
       price: {
