@@ -209,13 +209,23 @@ Each apartment features a smart, functional layout, refined finishes, and premiu
       },
     },
     floorPlans: {
-      categories: ["All", "1 BHK"],
+      categories: ["All", "1 BHK", "2 BHK","3 BHK"],
       title: "Floor Plans",
       plans: [
         {
           type: "1 BHK-403",
-          image: "/arihant-aspire/images/plan.jpg",
+          image: "/arihant-aspire/images/plan-1.jpg",
           category: "1 BHK",
+        },
+        {
+          type: "2 BHK-680-750",
+          image: "/arihant-aspire/images/plan-1.jpg",
+          category: "2 BHK",
+        },
+        {
+          type: "3 BHK-950-1000",
+          image: "/arihant-aspire/images/plan-1.jpg",
+          category: "3 BHK"
         },
       ],
       cta: {
