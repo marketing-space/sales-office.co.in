@@ -16,14 +16,14 @@ const route = routes.JaydeepOne;
 export const jaydeepOneConfig = {
   name: "Jaydeep One",
   about:
-    "Arihant Superstructures Ltd. is a renowned developer in Mumbai, known for delivering quality homes across both budget and luxury segments. The company has a strong presence in key locations such as Vashi, Panvel, Kharghar, Khopoli, Taloja, Badlapur, and Kalyan–Shil Road.Committed to creating modern, stylish living spaces, the developer also incorporates environmentally sustainable practices across select projects. With over 8,000 families already served, the company has delivered not just homes but also strong value appreciation for its investors in recent years.",
+    "Jaydeep Group is a trusted name committed to delivering excellence, innovation, and long-term value across every project we undertake. With a strong foundation built on integrity, quality, and customer satisfaction, we specialize in creating spaces and solutions that enhance modern lifestyles while maintaining the highest standards of craftsmanship. Our team combines industry expertise with a forward-thinking approach to ensure timely delivery and superior results. At Jaydeep Group, we believe in building not just projects, but lasting relationships—driven by transparency, reliability, and a passion for excellence.",
   contact: {
     phone: "+919619095795",
     whatsapp: "+919619095795",
     address:
-      "Panvel",
+      "Mulund",
   },
-  gtmId: "GTM-NSTZVHJM",
+  gtmId: "GTM-N7SLTPBP",
   navbar: {
     navItems: [
       {
@@ -102,9 +102,9 @@ Each apartment features a smart, functional layout, refined finishes, and premiu
       title: "Booking Open: Limited Time Only",
       location: "At Panvel by Arihant Superstructure",
       points: [
-        { text: "Launching New Tower Beneta" },
-        { text: "EOI Of ₹ 1.08 Lakhs" },
-        { text: "Save Big On Early Buy Discounts" },
+        { text: "Flexi Payment Plan" },
+        { text: "Spot Booking Offers" },
+        { text: "EOI Of ₹ 1 Lakhs" },
       ],
       cta: {
         title: "Book A Free Site Visit",
@@ -113,21 +113,21 @@ Each apartment features a smart, functional layout, refined finishes, and premiu
       features: [
         {
           title: "Land Parcel",
-          value: "16 Acres",
+          value: "0.5 Acres",
         },
         {
           title: "Floors",
-          value: "42 Storey",
+          value: "22 Storey",
         },
-        {
-          title: "Possession",
-          value: " March 2026",
-        },
+        // {
+        //   title: "Possession",
+        //   value: "March 2026",
+        // },
       ],
       price: {
-        title: "Luxurious 1, 2 & 3 BHK Starts from",
-        value: "54 Lacs ",
-        suffix: "Onwards",
+        title: "Luxurious 1 & 2 BHK Starts from",
+        value: "1.18 Cr",
+        suffix: "All Inc.",
       },
     },
   },
@@ -138,40 +138,34 @@ Each apartment features a smart, functional layout, refined finishes, and premiu
       "Choose from our range of luxurious 2 & 3 BHK residences, each designed to offer the perfect blend of comfort and sophistication",
     prices: [
       {
-        type: "1 BHK (O)",
-        carpetArea: "430 Sq.Ft. - 450 Sq.Ft.",
-        price: "54 Lacs - 57 Lacs",
-        suffix: "Onwards",
-      },
-      {
         type: "1 BHK",
-        carpetArea: "403 Sq.Ft.",
-        price: "56 Lacs",
-        suffix: "Onwards",
+        carpetArea: "480 Sq.Ft.",
+        price: "1.18 Cr",
+        suffix: "All Inc",
       },
       {
         type: "2 BHK",
-        carpetArea: "583 Sq.Ft.",
-        price: "76 Lacs",
-        suffix: "Onwards",
+        carpetArea: "540 Sq.Ft.",
+        price: "1.43 Cr",
+        suffix: "All Inc",
       },
       {
-        type: "2 BHK (O)",
+        type: "2 BHK",
+        carpetArea: "580 Sq.Ft.",
+        price: "1.50 Cr",
+        suffix: "All Inc",
+      },
+      {
+        type: "2 BHK",
+        carpetArea: "605 Sq.Ft.",
+        price: "1.58 Cr",
+        suffix: "All Inc",
+      },
+      {
+        type: "2 BHK with Deck",
         carpetArea: "725 Sq.Ft.",
-        price: "86 Lacs",
-        suffix: "Onwards",
-      },
-      {
-        type: "2 BHK (O)",
-        carpetArea: "680 Sq.Ft. - 750 Sq.Ft.",
-        price: "79 Lacs - 88 Lacs",
-        suffix: "Onwards",
-      },
-      {
-        type: "3 BHK (O)",
-        carpetArea: "950 Sq.Ft. - 1000 Sq.Ft.",
-        price: "1.11 Cr - 1.21 Cr",
-        suffix: "Onwards",
+        price: "1.73 Cr",
+        suffix: "All Inc",
       },
     ],
     cta: {
@@ -200,7 +194,7 @@ Each apartment features a smart, functional layout, refined finishes, and premiu
     masterPlan: {
       title: "Master Plan",
       image: {
-        src: "/jaydeep-one/images/masterplan.webp",
+        src: "/jaydeep-one/images/coming.jpg",
         alt: "Master Plan",
       },
       cta: {
@@ -209,12 +203,17 @@ Each apartment features a smart, functional layout, refined finishes, and premiu
       },
     },
     floorPlans: {
-      categories: ["All", "1 BHK"],
+      categories: ["All", "1 BHK", "2 BHK"],
       title: "Floor Plans",
       plans: [
         {
-          type: "1 BHK-403",
-          image: "/jaydeep-one/images/plan.jpg",
+          type: "1 BHK-480",
+          image: "/jaydeep-one/images/plan-1.png",
+          category: "1 BHK",
+        },
+        {
+          type: "1 BHK-725",
+          image: "/jaydeep-one/images/plan-2.png",
           category: "1 BHK",
         },
       ],
@@ -235,13 +234,18 @@ Each apartment features a smart, functional layout, refined finishes, and premiu
     },
     amenities: [
       {
-        title: "Mini Theater",
-        image: "/jaydeep-one/images/amenities/minitheater11.webp",
+        title: "Swimming Pool",
+        image: "/jaydeep-one/images/amenities/swimmingpools1.webp",
         description: "",
       },
       {
-        title: "Spa",
-        image: "/jaydeep-one/images/amenities/spa11.webp",
+        title: "Yoga",
+        image: "/jaydeep-one/images/amenities/yogazone1.webp",
+        description: "",
+      },
+      {
+        title: "Jogging Track",
+        image: "/jaydeep-one/images/amenities/joggingtrack.jpg",
         description: "",
       },
       {
@@ -250,54 +254,18 @@ Each apartment features a smart, functional layout, refined finishes, and premiu
         description: "",
       },
       {
-        title: "Reception",
-        image: "/jaydeep-one/images/amenities/reception11.webp",
-        description: "",
-      },
-      {
-        title: "Swimming Pool",
-        image: "/jaydeep-one/images/amenities/swmming_01.webp",
-        description: "",
-      },
-      {
-        title: "Temple",
-        image: "/jaydeep-one/images/amenities/temple11.webp",
-        description: "",
-      },
-      {
-        title: "Food Mart",
-        image: "/jaydeep-one/images/amenities/foodmart11.webp",
+        title: "Senior Citizen Area",
+        image: "/jaydeep-one/images/amenities/senior-citizen-area.jpg",
         description: "",
       },
       {
         title: "Garden",
-        image: "/jaydeep-one/images/amenities/garden_01.webp",
+        image: "/jaydeep-one/images/amenities/garden.jpg",
         description: "",
       },
-      {
-        title: "Gym",
-        image: "/jaydeep-one/images/amenities/gymnasium_1.webp",
-        description: "",
-      },
-      {
-        title: "Kids Play Area",
-        image: "/jaydeep-one/images/amenities/kidsplayarea11.webp",
-        description: "",
-      },
-      {
-        title: "Lobby",
-        image: "/jaydeep-one/images/amenities/lobby11.webp",
-        description: "",
-      },
-      {
-        title: "Jogging Track",
-        image: "/jaydeep-one/images/amenities/Joggingtrack1.webp",
-        description: "",
-      },
-
     ],
     stats: {
-      title: "32+ World-Class Amenities",
+      title: "42+ World-Class Amenities",
       description: "Everything you need for a luxurious lifestyle",
     },
   },
@@ -313,22 +281,17 @@ Each apartment features a smart, functional layout, refined finishes, and premiu
     images: [
       {
         title: "",
-        image: "/jaydeep-one/images/gallery/g1.webp",
+        image: "/jaydeep-one/images/gallery/g1.jpg",
         description: "Elegantly designed living spaces with premium finishes",
       },
       {
         title: "",
-        image: "/jaydeep-one/images/gallery/g2.webp",
+        image: "/jaydeep-one/images/gallery/g2.jpg",
         description: "Breathtaking views of landscaped gardens",
       },
       {
         title: "",
-        image: "/jaydeep-one/images/gallery/g3.webp",
-        description: "Resort-style pool with premium amenities",
-      },
-      {
-        title: "",
-        image: "/jaydeep-one/images/gallery/g4.webp",
+        image: "/jaydeep-one/images/gallery/g3.jpg",
         description: "Resort-style pool with premium amenities",
       },
     ],
@@ -338,23 +301,27 @@ Each apartment features a smart, functional layout, refined finishes, and premiu
     title: "Location",
     description: "Strategically located for your convenience",
     googleMapIframe:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2874.1872586583086!2d73.13135849999999!3d18.9627078!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7e7fbcdaa9059%3A0xb940f2db4f6bb64b!2sArihant%20Aspire!5e1!3m2!1sen!2sin!4v1772350908901!5m2!1sen!2sin",
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2870.5866992188216!2d72.965266!3d19.170504999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b9003ea88b7b%3A0x5cfea1fa9f7049cb!2sJaydeep%20One!5e1!3m2!1sen!2sin!4v1774011626356!5m2!1sen!2sin",
     image: {
-      src: "/jaydeep-one/images/locationmap.webp",
+      src: "",
       alt: "Location Map",
     },
     landmarks: [
       {
-        title: "Palaspe Phata Bus Station",
-        description: "4 mins",
+        title: "Line 4 Mumbai metro",
+        description: "13 Mins",
       },
       {
-        title: "St Johannes International School",
-        description: "15 mins",
+        title: "Thane Railway Station",
+        description: "14 Mins",
       },
       {
-        title: "Reach Panvel Railway Station",
-        description: "15 mins",
+        title: "Apna Bazaar",
+        description: "13 Mins",
+      },
+      {
+        title: "BKC Connector",
+        description: "26 Mins",
       },
     ],
     location: {
@@ -375,7 +342,7 @@ Each apartment features a smart, functional layout, refined finishes, and premiu
       description: "Schedule at your convenience",
     },
     image: {
-      src: "/jaydeep-one/images/banner-1.webp",
+      src: "/jaydeep-one/images/banner-1.png",
       alt: "Virtual Tour",
     },
     videoTitle: "Virtual Tour",
@@ -443,13 +410,13 @@ Each apartment features a smart, functional layout, refined finishes, and premiu
   legal: {
     rera: {
       title: "RERA Information",
-      description:
-        "According to the RERA Act 2016 of the Government of India, all projects of the Jaydeep One, are listed on the Maharashtra Government's RERA website under registered projects.",
+      description: "",
+        // "According to the RERA Act 2016 of the Government of India, all projects of the Jaydeep One, are listed on the Maharashtra Government's RERA website under registered projects.",
       details: [
         {
           title: "Jaydeep One",
-          reraNumber: "MahaRERA - P52000014107",
-          qrCode: "/jaydeep-one/images/qr.webp",
+          reraNumber: "",
+          qrCode: "/jaydeep-one/images/coming.jpg",
         },
       ],
     },
@@ -464,21 +431,21 @@ Each apartment features a smart, functional layout, refined finishes, and premiu
         description:
           "Government RERA Authorised Advertiser's: Marketing Space Pvt Ltd, Registration No A51700000595, CIN U74999MH2016PTC288144",
       },
-      {
-        title: "RERA Numbers",
-        description:
-          "RERA Project Registration No.:P52000014107",
-      },
+      // {
+      //   title: "RERA Numbers",
+      //   description:
+      //     "RERA Project Registration No.:P52000014107",
+      // },
       {
         title: "Site Address",
         description:
-          "Site Address: Jaydeep One: Palaspe Phata, Panvel, Navi Mumbai, Maharashtra 410221",
+          "Site Address: Jaydeep One:Bhanu Darshan Gali, Gurupushyamrut Society, Arunoday Nagar, Mulund East, Mumbai, Maharashtra 400081",
       },
-      {
-        title: "Contact Us",
-        description:
-          "Contact Us: Corporate Office: Corporate Office: Arihant Superstructure: Floor No. 26, Plot No 13/1 ⚊ TTC Industrial Area, Thane Belapur Road, Turbhe MIDC, Turbhe, Navi Mumbai,Maharashtra - 400 705.",
-      },
+      // {
+      //   title: "Contact Us",
+      //   description:
+      //     "Contact Us: Corporate Office: Corporate Office: Arihant Superstructure: Floor No. 26, Plot No 13/1 ⚊ TTC Industrial Area, Thane Belapur Road, Turbhe MIDC, Turbhe, Navi Mumbai,Maharashtra - 400 705.",
+      // },
     ],
     disclaimer:
       "The content is for information purposes only and does not constitute an offer to avail of any service. Prices mentioned are subject to change without notice and properties mentioned are subject to availability. Images for representation purposes only. This is the official website of authorized marketing partner. We may also send updates to the mobile number/email id registered with us. All Rights Reserved.",
@@ -486,16 +453,14 @@ Each apartment features a smart, functional layout, refined finishes, and premiu
 
   seo: {
     title:
-      "Jaydeep One 1, 2, 3 BHK & Jodi in Navi Mumbai | Price, Floor Plans, Amenities | Request Brochure",
+      "Jaydeep One 1 & 2 BHK in Mulund | Price, Floor Plans, Amenities | Request Brochure",
     description:
-      "Experience luxury living at Jaydeep One,Navi Mumbai. 2 & 3 BHK apartments with world-class amenities.",
+      "Experience luxury living at Jaydeep One,Mulund. 1 & 2 BHK apartments with world-class amenities.",
     keywords: [
       "luxury apartments",
       "Jaydeep One",
       "1 bhk",
       "2 bhk",
-      "3 bhk",
-      "jodi",
     ],
   },
 
@@ -580,12 +545,12 @@ Each apartment features a smart, functional layout, refined finishes, and premiu
 
   formSubmission: {
     crm: {
-      formId: "__vtigerWebForm_178",
-      publicId: "5dd32b5d35c28f4504f3492b31c513d0",
+      formId: "__vtigerWebForm_184",
+      publicId: "78ddfc627691a319641473d7a7d3ad9d",
       baseUrl: "https://company133638.od2.vtiger.com",
       __vtrftk: "sid:1b3cdc7b40504e947d6886a08517ac877e7e3224,1678943220",
       __vtCurrency: "1",
-      name: "Arihant Panvel",
+      name: "Jaydeep One",
       cfLeadsProjectSite: "Dosti Eden",
       leadSource: "Web",
       emailOptin: "1",
