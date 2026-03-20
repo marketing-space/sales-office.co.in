@@ -71,7 +71,7 @@ export const jaydeepOneConfig = {
 
   branding: {
     logo: "/jaydeep-one/images/logo.jpeg",
-    favicon: "/icon.jpeg",
+    favicon: "/Logo.png",
     ogImage: "/og-image.jpg",
   },
 
