@@ -100,7 +100,7 @@ Each apartment features a smart, functional layout, refined finishes, and premiu
     },
     offer: {
       title: "Booking Open: Limited Time Only",
-      location: "At Panvel by Arihant Superstructure",
+      location: "At Mulund by Jaydeep Group",
       points: [
         { text: "Flexi Payment Plan" },
         { text: "Spot Booking Offers" },
