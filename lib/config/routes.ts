@@ -10,4 +10,5 @@ export const routes = {
   ArihantAspire: "Arihant/Aspire",
   RaymondSion: "Raymond/Sion",
   JaydeepOne: "Jaydeep/One",
+  RaymondWadala: "Raymond/Wadala",
 };

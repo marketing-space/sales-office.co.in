@@ -11,6 +11,7 @@ import { neelkanthVerratonSiteConfig } from "./neelkanth-verraton";
 import { arihantAspireSiteConfig } from "./arihant-aspire";
 import { raymondSionSiteConfig } from "./raymond-sion";
 import { jaydeepOneConfig } from "./jaydeep-one";
+import { raymondWadalaSiteConfig } from "./raymond-wadala";
 // import { siteConfig } from "./site";
 
 const configs = {
@@ -25,6 +26,7 @@ const configs = {
   [routes.ArihantAspire]: arihantAspireSiteConfig,
   [routes.RaymondSion]: raymondSionSiteConfig,
   [routes.JaydeepOne]: jaydeepOneConfig,
+  [routes.RaymondWadala]: raymondWadalaSiteConfig,
 };
 
 export function getSiteConfig(site?: string) {
