@@ -21,7 +21,7 @@ export const raymondWadalaSiteConfig = {
     phone: "+919619095795",
     whatsapp: "+919619095795",
     address:
-      "Wadala, Mumbai",
+      "Mumbai",
   },
   gtmId: "GTM-WKRRSBJ9",
   navbar: {
