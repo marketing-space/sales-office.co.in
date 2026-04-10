@@ -1,6 +1,7 @@
 // import { lodhaAmaraSiteConfig } from "../config/regency-anatham";
 
 import { geraImperiumAtmosSiteConfig } from "./gera-imperium-atmos";
+import { geraKharadiSiteConfig } from "./gera-kharadi";
 import { majesticEvolvusSiteConfig } from "./majestic-evolvus";
 import { routes } from "./routes";
 
@@ -10,6 +11,7 @@ const configs = {
   [routes.default]: majesticEvolvusSiteConfig,
   [routes.MajesticEvolvus]: majesticEvolvusSiteConfig,
   [routes.GeraImperiumAtmos]: geraImperiumAtmosSiteConfig,
+  [routes.GeraKharadi]: geraKharadiSiteConfig,
 };
 
 export function getSiteConfig(site?: string) {
