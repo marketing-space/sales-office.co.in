@@ -444,16 +444,14 @@ More than just a residence, Envogue 1 is a statement of individuality and refine
 
   seo: {
     title:
-      "Tayal Envogoue1  2, 3 & 4 BHK in Central Kharadi | Price, Floor Plans, Amenities | Request Brochure",
+      "Tayal Envogoue1 3 & 4 BHK in Mundhwa | Price, Floor Plans, Amenities | Request Brochure",
     description:
-      "Experience luxury living at Tayal Envogoue1,Central Kharadi . 2, 3 & 4 BHK apartments with world-class amenities.",
+      "Experience luxury living at Tayal Envogoue1, Mundhwa . 3 & 4 BHK apartments with world-class amenities.",
     keywords: [
       "luxury apartments",
       "Tayal Envogoue1",
-      "1 bhk",
-      "2 bhk",
       "3 bhk",
-      "jodi",
+      "4 bhk",
     ],
   },
 
