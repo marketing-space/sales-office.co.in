@@ -1,32 +1,13 @@
 // import { lodhaAmaraSiteConfig } from "../config/regency-anatham";
+
+import { majesticEvolvusSiteConfig } from "./majestic-evolvus";
 import { routes } from "./routes";
 
-import { rahejaLunarisSiteConfig } from "./raheja-lunaris";
-import { rahejaJadeCitySiteConfig } from "./raheja-jade-city";
-import { todayCloudCitySiteConfig } from "./today-cloud-city";
-import { todayPanvelSiteConfig } from "./today-panvel";
-import { ashfordRegalSiteConfig } from "./ashford-regal";
-import { wadhwaWiseCitySiteConfig } from "./wadhwa-wise-city";
-import { neelkanthVerratonSiteConfig } from "./neelkanth-verraton";
-import { arihantAspireSiteConfig } from "./arihant-aspire";
-import { raymondSionSiteConfig } from "./raymond-sion";
-import { jaydeepOneConfig } from "./jaydeep-one";
-import { raymondWadalaSiteConfig } from "./raymond-wadala";
 // import { siteConfig } from "./site";
 
 const configs = {
-  // [routes.default]: lodhaAmaraSiteConfig,
-  [routes.RahejaLunaris]: rahejaLunarisSiteConfig,
-  [routes.RahejaJadeCity]: rahejaJadeCitySiteConfig,
-  [routes.TodayCloudCity]: todayCloudCitySiteConfig,
-  [routes.TodayPanvel]: todayPanvelSiteConfig,
-  [routes.AshfordRegal]: ashfordRegalSiteConfig,
-  [routes.WadhwaWiseCity]: wadhwaWiseCitySiteConfig,
-  [routes.NeelkanthVerraton]: neelkanthVerratonSiteConfig,
-  [routes.ArihantAspire]: arihantAspireSiteConfig,
-  [routes.RaymondSion]: raymondSionSiteConfig,
-  [routes.JaydeepOne]: jaydeepOneConfig,
-  [routes.RaymondWadala]: raymondWadalaSiteConfig,
+  [routes.default]: majesticEvolvusSiteConfig,
+  [routes.MajesticEvolvus]: majesticEvolvusSiteConfig,
 };
 
 export function getSiteConfig(site?: string) {
