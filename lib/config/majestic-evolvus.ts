@@ -28,7 +28,7 @@ Majestique’s reputation for delivering value-for-money homes is driven by a st
     address:
       "Central Kharadi",
   },
-  gtmId: "GTM-NSTZVHJM",
+  gtmId: "GTM-P785H5HS",
   navbar: {
     navItems: [
       {
@@ -105,7 +105,7 @@ Imagine living in a neighbourhood with excellent connectivity, top-tier social i
     },
     offer: {
       title: "Booking Open: Limited Time Only",
-      location: "At Central Kharadi by Arihant Superstructure",
+      location: "At Central Kharadi by Majestique Landmarks",
       points: [
         { text: "Flexible Payment Plan" },
         { text: "Spot Booking Offers" },
@@ -469,9 +469,9 @@ Imagine living in a neighbourhood with excellent connectivity, top-tier social i
 
   seo: {
     title:
-      "Majestique Evolvus 1, 2, 3 BHK & Jodi in Navi Mumbai | Price, Floor Plans, Amenities | Request Brochure",
+      "Majestique Evolvus  2, 3 & 4 BHK in Central Kharadi | Price, Floor Plans, Amenities | Request Brochure",
     description:
-      "Experience luxury living at Majestique Evolvus,Navi Mumbai. 2 & 3 BHK apartments with world-class amenities.",
+      "Experience luxury living at Majestique Evolvus,Central Kharadi . 2, 3 & 4 BHK apartments with world-class amenities.",
     keywords: [
       "luxury apartments",
       "Majestique Evolvus",
@@ -563,12 +563,12 @@ Imagine living in a neighbourhood with excellent connectivity, top-tier social i
 
   formSubmission: {
     crm: {
-      formId: "__vtigerWebForm_178",
-      publicId: "5dd32b5d35c28f4504f3492b31c513d0",
+      formId: "__vtigerWebForm_192",
+      publicId: "2770215235320a1c6719015a13a45489",
       baseUrl: "https://company133638.od2.vtiger.com",
       __vtrftk: "sid:1b3cdc7b40504e947d6886a08517ac877e7e3224,1678943220",
       __vtCurrency: "1",
-      name: "Arihant Panvel",
+      name: "Majestic Evolvus",
       cfLeadsProjectSite: "Dosti Eden",
       leadSource: "Web",
       emailOptin: "1",
