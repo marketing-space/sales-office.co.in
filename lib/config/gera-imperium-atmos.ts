@@ -409,7 +409,7 @@ Positioned at the heart of commercial growth, Gera Imperium Atmos offers an idea
       details: [
         {
           title: "Gera Imperium Atmos",
-          // reraNumber: "MahaRERA - P52100054253",
+          reraNumber: "",
           qrCode: "/gera-imperium-atmos/images/coming.jpg",
         },
       ],
