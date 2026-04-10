@@ -11,24 +11,25 @@ import {
 } from "lucide-react";
 import { routes } from "./routes";
 
-const route = routes.MajesticEvolvus;
+const route = routes.GeraImperiumAtmos;
 
-export const majesticEvolvusSiteConfig = {
-  name: "Majestique Evolvus",
+export const geraImperiumAtmosSiteConfig = {
+  name: "Gera Imperium Atmos",
   about:
-    `Majestique began its journey in the textile industry, steadily expanding its footprint with manufacturing units in Surat, Varanasi, Bengaluru, and Mumbai, along with 30 retail outlets spread across Maharashtra, covering over 3 lakh sq. ft.
+    `Gera Developers is a well-known name in the real estate industry, recognized for its commitment to quality, innovation, and customer-focused design. The company has pioneered the concept of child-centric homes, creating thoughtfully planned townships in some of India’s prime cities.
 
-In 2007, the company ventured into real estate, launching residential projects in Pune at Hadapsar and Market Yard. The success of these early developments led to a stronger focus on construction, with a wide range of residential projects across the city, each thoughtfully designed to cater to different segments of homebuyers.
+With a strong track record, Gera Developers has delivered homes to over 10,000 families and developed more than 6 million sq. ft. of space across Pune, Bengaluru, Goa, and even internationally in California. Their projects are built on the principles of transparency, customer satisfaction, and design-led, value-driven living.
 
-Majestique’s reputation for delivering value-for-money homes is driven by a strong commitment to quality. This philosophy is reflected in every aspect of its operations—from the use of high-grade materials and efficient construction processes to a focus on skilled human resources and overall excellence.
+The developer has also earned numerous awards and accolades, reflecting its dedication to excellence. Known for incorporating eco-friendly construction practices and sustainable features, Gera Developers continues to set benchmarks in creating modern, responsible, and comfortable living environments.
+
 `,
   contact: {
     phone: "+919619095795",
     whatsapp: "+919619095795",
     address:
-      "Central Kharadi",
+      "Kharadi, Pune",
   },
-  gtmId: "GTM-P785H5HS",
+  gtmId: "GTM-KNX2JRD4",
   navbar: {
     navItems: [
       {
@@ -70,12 +71,12 @@ Majestique’s reputation for delivering value-for-money homes is driven by a st
     cta: {
       title: "Download Brochure",
       description:
-        "Download the brochure to learn more about Majestique Evolvus",
+        "Download the brochure to learn more about Gera Imperium Atmos",
     },
   },
 
   branding: {
-    logo: "/majestic-evolus/images/logo.jpeg",
+    logo: "/gera-imperium-atmos/images/logo.svg",
     favicon: "/icon.jpeg",
     ogImage: "/og-image.jpg",
   },
@@ -83,32 +84,38 @@ Majestique’s reputation for delivering value-for-money homes is driven by a st
   hero: {
     banners: [
       {
-        src: "/majestic-evolus/images/banner-1.jpeg",
-        alt: "Majestique Evolvus Interior",
+        src: "/gera-imperium-atmos/images/banner-1.webp",
+        alt: "Gera Imperium Atmos Interior",
       },
       // {
-      //   src: "/majestic-evolus/images/banner-2.webp",
-      //   alt: "Majestique Evolvus Interior",
+      //   src: "/gera-imperium-atmos/images/banner-2.webp",
+      //   alt: "Gera Imperium Atmos Interior",
       // },
     ],
     welcome: {
       cta: {
         title: "Download Brochure",
         description:
-          "Download the brochure to learn more about Majestique Evolvus.",
+          "Download the brochure to learn more about Gera Imperium Atmos.",
       },
-      title: "Welcome to Majestique Evolvus",
-      description: `Welcome to Evolvus Kharadi—a place where everything comes together effortlessly. It’s rare to find a location that truly offers the best of all worlds, where convenience, connectivity, and lifestyle blend seamlessly for the modern homebuyer.
+      title: "Welcome to Gera Imperium Atmos",
+      description: `Gera Imperium Atmos is an upcoming commercial landmark in Kharadi, Pune, designed to elevate the workspace experience for modern businesses. This premium high-rise development will offer Grade-A office spaces tailored for startups, growing enterprises, and established organizations. In addition, it will feature well-planned spaces for branded retail outlets, restaurants, and cafés, creating a vibrant business ecosystem.
 
-Imagine living in a neighbourhood with excellent connectivity, top-tier social infrastructure, and a vibrant, cosmopolitan environment—all at a value that feels almost too good to be true. That’s the essence of Kharadi—balanced, dynamic, and perfectly suited for contemporary living.
+With its sleek glass façade and expansive frontage, the project ensures excellent visibility along one of Kharadi’s busiest commercial corridors. It is thoughtfully equipped with top-tier amenities, including a wide driveway, grand entrance lobby, ample parking, CCTV surveillance, power backup, high-speed elevators, and a comfortable waiting lounge.
+
+Strategically located in Pune’s leading business district, Gera Imperium Atmos enjoys close proximity to prominent landmarks such as Radisson Blu Hotel, Four Points by Sheraton, Manipal Hospital, Phoenix Marketcity, EON IT Park, and the World Trade Center. The project also benefits from seamless connectivity via key routes like Dholepatil Farms Road, Magarpatta Road, the Pune-Ahilyanagar Highway, and access points such as Ramwadi Metro Station, Hadapsar Railway Station, and Pune International Airport.
+
+Positioned at the heart of commercial growth, Gera Imperium Atmos offers an ideal destination to establish and expand a successful business in Pune.
+
 `,
     },
     offer: {
       title: "Booking Open: Limited Time Only",
-      location: "At Central Kharadi by Majestique Landmarks",
+      location: "Kharadi, Pune by Gera Developments",
       points: [
-        { text: "Flexible Payment Plan" },
-        { text: "Spot Booking Offers" },
+        { text: "Instant Benefits On Spot-Booking" },
+        { text: "Save Big On Early Buy Discounts" },
+        { text: "Flexipay For First 100 Customers" },
       ],
       cta: {
         title: "Book A Free Site Visit",
@@ -121,15 +128,15 @@ Imagine living in a neighbourhood with excellent connectivity, top-tier social i
         // },
         {
           title: "Floors",
-          value: "27 Storey",
+          value: "G+19 Floors",
         },
-        {
-          title: "Possession",
-          value: "Dec, 2027",
-        },
+        // {
+        //   title: "Possession",
+        //   value: "Dec, 2027",
+        // },
       ],
       price: {
-        title: "Luxurious 2 , 3 & 4 BHK Starts from",
+        title: "Luxurious Offices, Retail & F&B  Starts from",
         value: "1.45 Cr*",
         suffix: "Onwards",
       },
@@ -139,31 +146,19 @@ Imagine living in a neighbourhood with excellent connectivity, top-tier social i
   pricing: {
     title: "Pricing Plans",
     description:
-      "Choose from our range of luxurious 2 , 3 & 4 BHK residences, each designed to offer the perfect blend of comfort and sophistication",
+      "Choose from our range of luxurious Offices , Retail & F&B , each designed to offer the perfect blend of comfort and sophistication",
     prices: [
       {
-        type: "2 BHK",
-        carpetArea: "815 Sq.Ft. - 877 Sq.Ft.",
-        price: "On Request",
-        suffix: "",
+        type: "Offices",
+        carpetArea: "On Request",
+        price: "1.85 Cr",
+        suffix: "Onwards",
       },
       {
-        type: "3 BHK",
-        carpetArea: "1115 Sq.Ft. - 1149 Sq.Ft.",
-        price: "On Request",
-        suffix: "",
-      },
-      {
-        type: "3 BHK",
-        carpetArea: "1209 Sq.Ft.",
-        price: "On Request",
-        suffix: "",
-      },
-      {
-        type: "4 BHK",
-        carpetArea: "1715 Sq.Ft.",
-        price: "On Request",
-        suffix: "",
+        type: "Retail & F&B",
+        carpetArea: "On Request",
+        price: "7.50 Cr",
+        suffix: "Onwards",
       },
     ],
     cta: {
@@ -172,8 +167,8 @@ Imagine living in a neighbourhood with excellent connectivity, top-tier social i
     },
     detailPricing: {
       image: {
-        src: "/majestic-evolus/images/costing.webp",
-        alt: "Majestique Evolvus Costing",
+        src: "/gera-imperium-atmos/images/costing.webp",
+        alt: "Gera Imperium Atmos Costing",
       },
       title: "Need Complete Costing Details?",
       description:
@@ -192,37 +187,32 @@ Imagine living in a neighbourhood with excellent connectivity, top-tier social i
     masterPlan: {
       title: "Master Plan",
       image: {
-        src: "/majestic-evolus/images/coming.jpg",
+        src: "/gera-imperium-atmos/images/masterplan.webp",
         alt: "Master Plan",
       },
       cta: {
         title: "View Master Plan",
-        description: "Explore the layout of Majestique Evolvus",
+        description: "Explore the layout of Gera Imperium Atmos",
       },
     },
     floorPlans: {
-      categories: ["All", "2 BHK", "3 BHK", "4 BHK"],
+      categories: ["All", "Offices", "Retail"],
       title: "Floor Plans",
       plans: [
         {
-          type: "2 BHK-815-877 ",
-          image: "/majestic-evolus/images/plan-1.jpg",
-          category: "1 BHK",
+          type: "Offices",
+          image: "/gera-imperium-atmos/images/plan-1.jpg",
+          category: "Offices",
         },
         {
-          type: "3 BHK-1209",
-          image: "/majestic-evolus/images/plan-2.jpg",
-          category: "2 BHK",
-        },
-        {
-          type: "4 BHK-1715",
-          image: "/majestic-evolus/images/plan-3.jpg",
-          category: "3 BHK"
+          type: "Retail & F&B",
+          image: "/gera-imperium-atmos/images/plan-2.jpg",
+          category: "Retail",
         },
       ],
       cta: {
         title: "Enquire Now",
-        description: "Explore the layout of Majestique Evolvus",
+        description: "Explore the layout of Gera Imperium Atmos",
       },
     },
   },
@@ -233,42 +223,42 @@ Imagine living in a neighbourhood with excellent connectivity, top-tier social i
       "Discover a lifestyle enriched with premium amenities and facilities",
     cta: {
       title: "Download Amenities",
-      description: "Download the amenities of Majestique Evolvus",
+      description: "Download the amenities of Gera Imperium Atmos",
     },
     amenities: [
       {
-        title: "Gymnasium",
-        image: "/majestic-evolus/images/amenities/gym.webp",
+        title: "Drive Pathway",
+        image: "/gera-imperium-atmos/images/amenities/drivepathway.webp",
         description: "",
       },
       {
-        title: "Kids Play Area",
-        image: "/majestic-evolus/images/amenities/kids-playarea.jpg",
+        title: "Extensive Frontage",
+        image: "/gera-imperium-atmos/images/amenities/extensivefrontage.webp",
         description: "",
       },
       {
-        title: "Temple",
-        image: "/majestic-evolus/images/amenities/temple.webp",
+        title: "Grand Entrance Lobby",
+        image: "/gera-imperium-atmos/images/amenities/grandentrancelobby.webp",
         description: "",
       },
       {
-        title: "Swimming Pool",
-        image: "/majestic-evolus/images/amenities/swmming_01.webp",
+        title: "Parking Space",
+        image: "/gera-imperium-atmos/images/amenities/parkingspace.webp",
         description: "",
       },
       {
-        title: "Multipurpose Court",
-        image: "/majestic-evolus/images/amenities/multipurposesportscourt.webp",
+        title: "High-Speed Elevators",
+        image: "/gera-imperium-atmos/images/amenities/highspeedelevators.webp",
         description: "",
       },
       {
-        title: "Cricket Pitch",
-        image: "/majestic-evolus/images/amenities/cricket.jpg",
+        title: "Waiting Lounge",
+        image: "/gera-imperium-atmos/images/amenities/waitinglounge.webp",
         description: "",
       },
     ],
     stats: {
-      title: "32+ World-Class Amenities",
+      title: "50+ World-Class Amenities",
       description: "Everything you need for a luxurious lifestyle",
     },
   },
@@ -279,27 +269,27 @@ Imagine living in a neighbourhood with excellent connectivity, top-tier social i
       "Experience luxury living through our carefully curated spaces",
     cta: {
       title: "Download Gallery",
-      description: "Download the gallery of Majestique Evolvus",
+      description: "Download the gallery of Gera Imperium Atmos",
     },
     images: [
       {
         title: "",
-        image: "/majestic-evolus/images/gallery/g1.webp",
+        image: "/gera-imperium-atmos/images/gallery/g1.webp",
         description: "Elegantly designed living spaces with premium finishes",
       },
       {
         title: "",
-        image: "/majestic-evolus/images/gallery/g2.webp",
+        image: "/gera-imperium-atmos/images/gallery/g2.webp",
         description: "Breathtaking views of landscaped gardens",
       },
       {
         title: "",
-        image: "/majestic-evolus/images/gallery/g3.webp",
+        image: "/gera-imperium-atmos/images/gallery/g3.webp",
         description: "Resort-style pool with premium amenities",
       },
       {
         title: "",
-        image: "/majestic-evolus/images/gallery/g4.webp",
+        image: "/gera-imperium-atmos/images/gallery/g4.webp",
         description: "Resort-style pool with premium amenities",
       },
     ],
@@ -309,35 +299,23 @@ Imagine living in a neighbourhood with excellent connectivity, top-tier social i
     title: "Location",
     description: "Strategically located for your convenience",
     googleMapIframe:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2881.108086135718!2d73.934946988855!3d18.5569988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c3c5a1cb4ec9%3A0xb8addcd25b96173f!2sMajestique%20Evolvus!5e1!3m2!1sen!2sin!4v1775807851174!5m2!1sen!2sin",
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2881.191241674895!2d73.9494132!3d18.552072100000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c3f1480b525b%3A0xb3efd3efa93c6091!2sGera%27s%20Imperium%20Atmos!5e1!3m2!1sen!2sin!4v1775816309675!5m2!1sen!2sin",
     image: {
-      src: "/majestic-evolus/images/Loction_Map.webp",
+      src: "/gera-imperium-atmos/images/locationmap.webp",
       alt: "Location Map",
     },
     landmarks: [
       {
-        title: "Gera Commerzone",
-        description: "2.8 Km",
+        title: "Pune-Ahilyanagar Highway",
+        description: "7 mins",
       },
       {
-        title: "EON IT Park",
-        description: "1.8 Km",
+        title: "Hadapsar Railway Station",
+        description: "15 mins",
       },
       {
-        title: "Pune Airport ",
-        description: "7.5 Km",
-      },
-      {
-        title: "Pune Railway Station ",
-        description: "13.5 Km",
-      },
-      {
-        title: "Pune-Ahmadnagar Highway ",
-        description: "200 M",
-      },
-      {
-        title: " Reliance Mart ",
-        description: "2.5 Km",
+        title: "Pune International Airport",
+        description: "20 mins",
       },
     ],
     location: {
@@ -352,18 +330,18 @@ Imagine living in a neighbourhood with excellent connectivity, top-tier social i
   virtualTour: {
     title: "Virtual Tour Request",
     description:
-      "Experience Majestique Evolvus from the comfort of your home",
+      "Experience Gera Imperium Atmos from the comfort of your home",
     cta: {
       title: "Request Virtual Tour",
       description: "Schedule at your convenience",
     },
     image: {
-      src: "/majestic-evolus/images/banner-1.jpeg",
+      src: "/gera-imperium-atmos/images/banner-1.webp",
       alt: "Virtual Tour",
     },
     videoTitle: "Virtual Tour",
     videoDescription:
-      "Experience Majestique Evolvus from the comfort of your home",
+      "Experience Gera Imperium Atmos from the comfort of your home",
     features: [
       {
         title: "360° Views",
@@ -390,7 +368,7 @@ Imagine living in a neighbourhood with excellent connectivity, top-tier social i
     title: "Get The Best Quote",
     bookFreeVisit: {
       image: {
-        src: "/majestic-evolus/images/ride.png",
+        src: "/gera-imperium-atmos/images/ride.png",
         alt: "Book a Site Visit",
       },
       cta: {
@@ -426,13 +404,13 @@ Imagine living in a neighbourhood with excellent connectivity, top-tier social i
   legal: {
     rera: {
       title: "RERA Information",
-      description:
-        "According to the RERA Act 2016 of the Government of India, all projects of the Majestique Evolvus, are listed on the Maharashtra Government's RERA website under registered projects.",
+      description:"",
+        // "According to the RERA Act 2016 of the Government of India, all projects of the Gera Imperium Atmos, are listed on the Maharashtra Government's RERA website under registered projects.",
       details: [
         {
-          title: "Majestique Evolvus",
-          reraNumber: "MahaRERA - P52100054253",
-          qrCode: "/majestic-evolus/images/qr.webp",
+          title: "Gera Imperium Atmos",
+          // reraNumber: "MahaRERA - P52100054253",
+          qrCode: "/gera-imperium-atmos/images/coming.jpg",
         },
       ],
     },
@@ -447,21 +425,21 @@ Imagine living in a neighbourhood with excellent connectivity, top-tier social i
         description:
           "Government RERA Authorised Advertiser's: Marketing Space Pvt Ltd, Registration No A51700000595, CIN U74999MH2016PTC288144",
       },
-      {
-        title: "RERA Numbers",
-        description:
-          "RERA Project Registration No.: P52100054253",
-      },
+      // {
+      //   title: "RERA Numbers",
+      //   description:
+      //     "RERA Project Registration No.: P52100054253",
+      // },
       {
         title: "Site Address",
         description:
-          "Site Address:Survey no. 39/1, Ashoka Nagar, Central Kharadi, Kharadi, Pune, 411014 ",
+          "Site Address:Gera Imperium Atmos: opposite to EON Free Zone, EON Free Zone, Kharadi, Pune, Maharashtra 411014",
       },
-      // {
-      //   title: "Contact Us",
-      //   description:
-      //     "Contact Us: Corporate Office: Corporate Office: Arihant Superstructure: Floor No. 26, Plot No 13/1 ⚊ TTC Industrial Area, Thane Belapur Road, Turbhe MIDC, Turbhe, Navi Mumbai,Maharashtra - 400 705.",
-      // },
+      {
+        title: "Contact Us",
+        description:
+          "Contact Us: Corporate Office: 200, Gera Plaza, Boat Club Rd, Sangamvadi, Pune, Maharashtra 411001",
+      },
     ],
     disclaimer:
       "The content is for information purposes only and does not constitute an offer to avail of any service. Prices mentioned are subject to change without notice and properties mentioned are subject to availability. Images for representation purposes only. This is the official website of authorized marketing partner. We may also send updates to the mobile number/email id registered with us. All Rights Reserved.",
@@ -469,12 +447,12 @@ Imagine living in a neighbourhood with excellent connectivity, top-tier social i
 
   seo: {
     title:
-      "Majestique Evolvus  2, 3 & 4 BHK in Central Kharadi | Price, Floor Plans, Amenities | Request Brochure",
+      "Gera Imperium Atmos  2, 3 & 4 BHK in Central Kharadi | Price, Floor Plans, Amenities | Request Brochure",
     description:
-      "Experience luxury living at Majestique Evolvus,Central Kharadi . 2, 3 & 4 BHK apartments with world-class amenities.",
+      "Experience luxury living at Gera Imperium Atmos,Central Kharadi . 2, 3 & 4 BHK apartments with world-class amenities.",
     keywords: [
       "luxury apartments",
-      "Majestique Evolvus",
+      "Gera Imperium Atmos",
       "1 bhk",
       "2 bhk",
       "3 bhk",
@@ -484,7 +462,7 @@ Imagine living in a neighbourhood with excellent connectivity, top-tier social i
 
   termsAndConditions: {
     seo: {
-      title: "Majestique Evolvus | Terms & Conditions",
+      title: "Gera Imperium Atmos | Terms & Conditions",
       description:
         "Please read these terms and conditions carefully before using our website.",
     },
@@ -512,7 +490,7 @@ Imagine living in a neighbourhood with excellent connectivity, top-tier social i
 
   privacyPolicy: {
     seo: {
-      title: "Majestique Evolvus | Privacy Policy",
+      title: "Gera Imperium Atmos | Privacy Policy",
       description: "This policy explains how we use your personal information.",
     },
     title: "Privacy Policy",
@@ -533,7 +511,7 @@ Imagine living in a neighbourhood with excellent connectivity, top-tier social i
 
   cookiesPolicy: {
     seo: {
-      title: "Majestique Evolvus | Cookies Policy",
+      title: "Gera Imperium Atmos | Cookies Policy",
       description:
         "This policy explains how we use cookies and similar technologies on our website.",
     },
@@ -556,19 +534,19 @@ Imagine living in a neighbourhood with excellent connectivity, top-tier social i
 
   thankYou: {
     seo: {
-      title: "Majestique Evolvus | Thank You",
-      description: "Thank you for your interest in Majestique Evolvus",
+      title: "Gera Imperium Atmos | Thank You",
+      description: "Thank you for your interest in Gera Imperium Atmos",
     },
   },
 
   formSubmission: {
     crm: {
-      formId: "__vtigerWebForm_192",
-      publicId: "2770215235320a1c6719015a13a45489",
+      formId: "__vtigerWebForm_195" ,
+      publicId: "24d827e973ffb1509b5eb24975e24540",
       baseUrl: "https://company133638.od2.vtiger.com",
       __vtrftk: "sid:1b3cdc7b40504e947d6886a08517ac877e7e3224,1678943220",
       __vtCurrency: "1",
-      name: "Majestic Evolvus",
+      name: "Gera Imperium Atmos",
       cfLeadsProjectSite: "Dosti Eden",
       leadSource: "Web",
       emailOptin: "1",
@@ -576,10 +554,10 @@ Imagine living in a neighbourhood with excellent connectivity, top-tier social i
     email: {
       apiEndpoint: "/api/send-email",
       template: {
-        subject: "New Enquiry from Majestique Evolvus",
+        subject: "New Enquiry from Gera Imperium Atmos",
       },
     },
   },
 };
 
-export type MajesticEvolvusSiteConfig = typeof majesticEvolvusSiteConfig;
+export type GeraImperiumAtmosSiteConfig = typeof geraImperiumAtmosSiteConfig;
