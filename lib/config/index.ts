@@ -4,6 +4,7 @@ import { geraImperiumAtmosSiteConfig } from "./gera-imperium-atmos";
 import { geraKharadiSiteConfig } from "./gera-kharadi";
 import { majesticEvolvusSiteConfig } from "./majestic-evolvus";
 import { routes } from "./routes";
+import { tayalEnvoug1SiteConfig } from "./tayal-envogue1";
 
 // import { siteConfig } from "./site";
 
@@ -12,6 +13,7 @@ const configs = {
   [routes.MajesticEvolvus]: majesticEvolvusSiteConfig,
   [routes.GeraImperiumAtmos]: geraImperiumAtmosSiteConfig,
   [routes.GeraKharadi]: geraKharadiSiteConfig,
+  [routes.TayalEnvogue1]: tayalEnvoug1SiteConfig,
 };
 
 export function getSiteConfig(site?: string) {
