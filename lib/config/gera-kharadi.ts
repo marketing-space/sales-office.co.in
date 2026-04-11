@@ -76,7 +76,7 @@ The developer has also earned numerous awards and accolades, reflecting its dedi
   },
 
   branding: {
-    logo: "/gera-kharadi/images/logo.svg",
+    logo: "/gera-kharadi/images/logo.jpeg",
     favicon: "/icon.jpeg",
     ogImage: "/og-image.jpg",
   },
