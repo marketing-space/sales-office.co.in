@@ -81,7 +81,7 @@ With distinct brands like Envogue, K Better Homes, and Flow, Tayal Corp focuses 
   hero: {
     banners: [
       {
-        src: "/tayal-envogue/images/banner-1.jpeg",
+        src: "/tayal-envogue/images/banner-1.png",
         alt: "Tayal Envogoue1 Interior",
       },
       // {
@@ -333,7 +333,7 @@ More than just a residence, Envogue 1 is a statement of individuality and refine
       description: "Schedule at your convenience",
     },
     image: {
-      src: "/tayal-envogue/images/banner-1.jpeg",
+      src: "/tayal-envogue/images/banner-1.png",
       alt: "Virtual Tour",
     },
     videoTitle: "Virtual Tour",
