@@ -4,4 +4,5 @@ export const routes = {
   GeraImperiumAtmos: "Gera/Imperium-Atmos",
   GeraKharadi: "Gera/Kharadi",
   TayalEnvogue1: "Tayal/Envogue1",
+  VJBalevadi: "VJ/Balevadi",
 };
